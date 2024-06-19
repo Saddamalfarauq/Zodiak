@@ -1,7 +1,7 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nama = htmlspecialchars($_POST['nama']);
-    $tanggal_lahir = $_POST['tanggal'];
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    $nama = htmlspecialchars($_GET['nama']);
+    $tanggal_lahir = $_GET['tanggal'];
 
     $month = (int)date('m', strtotime($tanggal_lahir));
     $day = (int)date('d', strtotime($tanggal_lahir));
