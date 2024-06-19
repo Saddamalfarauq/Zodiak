@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <body>
         <div class='video-background'>
             <video autoplay loop muted>
-                <source src='assets/background-video.mp4' type='video/mp4'>
+                <source src='assets/BackgroundVideo.mp4' type='video/mp4'>
             </video>
         </div>
         <div class='container' style='font-family: 'Playwrite NZ', cursive; font-optical-sizing: auto; font-weight: 200; font-style: normal;'>
